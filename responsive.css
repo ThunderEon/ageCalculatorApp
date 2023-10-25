@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 576px) {
   .container {
-    width: 65%;
+    width: 55%;
   }
   #calculator-form {
     height: 400px;
@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 992px) {
   .container {
-    width: 50%;
+    width: 40%;
   }
   #calculator-form {
     height: 400px;
