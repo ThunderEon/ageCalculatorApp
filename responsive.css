@@ -1,0 +1,46 @@
+@media screen and (max-width: 576px) {
+    body{
+        align-items: flex-start !important;
+        padding-top: 40px;
+    }
+  .container {
+    width: 95%;
+  }
+  #calculator-form {
+    height: 400px;
+    grid-template-columns: 95%;
+  }
+  .submit-sec {
+    display: flex;
+    justify-content: center;
+  }
+  .calculated-data-section div span:last-of-type{
+    font-size: 35px !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 65%;
+  }
+  #calculator-form {
+    height: 400px;
+    grid-template-columns: 90%;
+  }
+  .submit-sec {
+    display: flex;
+    justify-content: right;
+  }
+  .input-section {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 50%;
+  }
+  #calculator-form {
+    height: 400px;
+  }
+}

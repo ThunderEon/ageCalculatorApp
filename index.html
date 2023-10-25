@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age calculator app</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div role="main" class="container">
+      <form id="calculator-form">
+        <div class="input-section">
+          <div class="day-part">
+            <label for="day" class="day-label">DAY</label>
+            <input type="number" name="day-input" id="day" placeholder="DD" />
+            <span class="field-error">this field is required</span>
+            <span class="field-error">Must be a valid day</span>
+          </div>
+          <div class="month-part">
+            <label for="month" class="month-label">MONTH</label>
+            <input
+              type="number"
+              name="month-input"
+              id="month"
+              placeholder="MM"
+            />
+            <span class="field-error">this field is required</span>
+            <span class="field-error">Must be a valid month</span>
+          </div>
+          <div class="year-part">
+            <label for="year" class="year-label">YEAR</label>
+            <input type="number" name="year-input" id="year" placeholder="YYYY"/>
+            <span class="field-error">this field is required</span>
+            <span class="field-error">Must be in the past</span>
+          </div>
+        </div>
+        <div class="submit-sec">
+          <button type="button" id="submit-btn"></button>
+        </div>
+        <div class="calculated-data-section">
+          <div class="data year-section">
+            <span class="numbers">--</span><span>years</span>
+          </div>
+          <div class="data month-section">
+            <span class="numbers">--</span><span>months</span>
+          </div>
+          <div class="data day-section">
+            <span class="numbers">--</span><span>days</span>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
